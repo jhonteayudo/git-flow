@@ -50,22 +50,22 @@ Estas ramas se utilizan para corregir errores y bugs en el código en producció
 ## Uso de los comandos
 #### Crear una nueva feature (en el ejemplo my-feature):
 ```
-$ git flow feature start feature/my-feature
+$ git flow feature start my-feature
 ```
 #### Finalizar la rama feature:
 ```
-$ git flow feature finish feature/my-feature
+$ git flow feature finish my-feature
 ```
 #### Publicar la rama feature en el repositorio remoto:
 ```
-$ git flow feature publish feature/my-feature
+$ git flow feature publish my-feature
 ```
 #### Obtener una rama feature del repositorio remoto:
 ```
-$ git flow feature pull origin feature/my-feature
+$ git flow feature pull origin my-feature
 ```
 #### Seguir de los cambios de la feature:
 ```
-$ git flow feature track feature/my-feature
+$ git flow feature track my-feature
 ```
 
